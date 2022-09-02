@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Dz Lesson_16</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"></header>
+			<main class="main">
+				<div class="dog-form">
+					<form enctype="multipart/form-data" action="#" method="get" class="dog-form__form form">
+						<div class="form__titles titles">
+							<div class="titles__title">Make an appointment</div>
+
+						</div>
+						<div class="form__items">
+							<div class="form__item">
+								<input tabindex="1" class="form__input" required autocomplete="off" type="text" name="name" placeholder="Name">
+							</div>
+							<div class="form__item">
+								<input tabindex="2" class="form__input" required autocomplete="off" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form__item">
+								<input tabindex="3" class="form__input" required autocomplete="off" type="tel" name="Phone Number" placeholder="Phone Number">
+							</div>
+							<div class="form__item">
+								<select tabindex="4" class="form__input form__input_select" required autocomplete="off" type="text" name="list" placeholder="Select Service">
+									<option value="Пункт-1">Пункт №1</option>
+									<option value="Пункт-2">Пункт №2</option>
+									<option value="Пункт-3">Пункт №3</option>
+									<option value="Пункт-4">Пункт №4</option>
+								</select>
+							</div>
+							<div class="form__item">
+								<textarea tabindex="5" class="form__textarea" required autocomplete="off" type="text" name="about" placeholder="Tell us about your puppers include his/her name"></textarea>
+								<button tabindex="6" class="form__button button">Make an Appointment</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+
+
+				<div class="from-car">
+					<form enctype="multipart/form-data" method="post" action="#" class="from-car__from from">
+						<div class="from__headers headers">
+							<div class="headers__header">Make an appointment</div>
+						</div>
+						<div class="from__items">
+							<div class="from__item">
+								<input tabindex="7" placeholder="Name" name="name" required autocomplete="off" class="from__input" type="text">
+							</div>
+							<div class="from__item">
+								<input tabindex="8" placeholder="Email" name="email" required autocomplete="off" class="from__input" type="email">
+							</div>
+							<div class="from__item">
+								<input tabindex="9" placeholder="Phone Number" name="number" required autocomplete="off" class="from__input" type="tel">
+							</div>
+							<div class="from__item">
+								<select tabindex="10" placeholder="Select Service" name="select" required autocomplete="off" class="from__input from__input_select" type="text">
+									<option value="P-1">Первый пункт</option>
+									<option value="P-2">Второй пункт</option>
+									<option value="P-3">Третий пункт</option>
+									<option value="P-4">Четвёртый пункт</option>
+								</select>
+							</div>
+							<div class="from__item">
+								<textarea tabindex="11" name="about" required autocomplete="off" class="from__textarea" type="text" placeholder="Tell us about the car needing service(s)"></textarea>
+								<button tabindex="12" class="from__button button">
+									Make an Appointment
+								</button>
+							</div>
+
+						</div>
+					</form>
+				</div>
+				<div class="tech">
+					<form enctype="multipart/form-data" class="tech__form form-tech" action="#">
+						<div class="form-tech__titless titless">
+							<div class="titless__title">Summary</div>
+							<div class="tittless__subtitle">Estimate Shipping and Tax</div>
+						</div>
+						<div class="form-tech__text">Enter your destination to get a shipping estimate.</div>
+						<div class="form-tech__items">
+							<div class="form-tech__item form-tech__item_select">
+								<label class="form-tech__lable" for="item__1">Country</label>
+								<select required tabindex="13" required class="form-tech__select" name="country" id="item__1">
+									<option value="1">Ukraine</option>
+									<option selected value="2">Australia</option>
+									<option value="3">Canada</option>
+									<option value="4">USA</option>
+								</select>
+							</div>
+							<div class="form-tech__item">
+								<label class="form-tech__lable" for="item__2">State/Province</label>
+								<input tabindex="14" name="State" required autocomplete="off" id="item__2" class="form-tech__input" type="text">
+							</div>
+							<div class="form-tech__item form-tech__item_zip">
+								<label class="form-tech__lable" for="item__3">Zip/Postal Code</label>
+								<input tabindex="15" name="Postal Code" required autocomplete="off" id="item__3" class="form-tech__input" type="text">
+							</div>
+							<div class="form-tech__item form-tech__item_radio-one">
+								<label class="form-tech__lable" for="item__4">Standard Rate</label>
+								<input tabindex="16" name="radio__1" required autocomplete="off" id="item__4" class="form-tech__radio" type="radio">
+								<label class="form-tech__lable_radio" for="item__4">Price may vary depending on the item/destination.
+									Shop Staff will contact you. $21.00</label>
+							</div>
+							<div class="form-tech__item form-tech__item_radio-two">
+								<label class="form-tech__lable" for="item__5">Pickup from store</label>
+								<input tabindex="17" name="radio__1" required autocomplete="off" id="item__5" class="form-tech__radio" type="radio">
+								<label class="form-tech__lable_radio" for="item__5">1234 Street Adress City Address, 1234 $0.00</label>
+							</div>
+							<div class="form-tech__item form-tech__item_lable-code">
+								<label class="form-tech__lable form-tech__lable_code" for="">Apply Discount Code</label>
+
+							</div>
+							<div class="form-tech__item form-tech__item_enter-code">
+								<label class="form-tech__lable" for="item__6">Enter discount code</label>
+								<input tabindex="18" name="Postal Code" autocomplete="off" id="item__6" placeholder="Enter discount code" class="form-tech__input form-tech__input_last" type="text">
+								<!-- <button type=submit tabindex="19" class="form-tech__button button">Apply Discount</button> -->
+							</div>
+							<div class="form-tech__item">
+								<button type=submit tabindex="19" class="form-tech__button button">Apply Discount</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="mini-fomr">
+					<form class="mini-fomr__fomr fomr" action="#">
+						<div class="fomr__headings headings">
+							<div class="headings__heading">Registered Customers</div>
+						</div>
+						<div class="fomr__text">If you have an account, sign in with your email address.</div>
+						<div class="fomr__items">
+							<div class="fomr__item">
+								<label class="fomr__label" for="item__one">Email <span>*</span></label>
+								<input tabindex="20" required placeholder="Your Name" name="email" id="item__one" class="fomr__input" type="email">
+							</div>
+							<div class="fomr__item">
+								<label class="fomr__label" for="item__two">Password <span>*</span></label>
+								<input tabindex="21" required placeholder="Your Name" name="password" id="item__two" class="fomr__input fomr__input_margin" type="password">
+								<button tabindex="22" type="submit" class="fomr__button button">Sign In</button>
+								<a href="" tabindex="23" class="fomr__link">Forgot Your Password?</a>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="big-formm">
+					<form class="big-formm__formm formm" action="#">
+						<div class="formm__heads heads">
+							<div class="heads__head">Shipping Address</div>
+
+						</div>
+						<div class="big-formm__items">
+							<div class="big-formm__item big-formm__item_border">
+								<label class="big-formm__label" for="input__one">Email Address <span>*</span></label>
+								<input tabindex="24" required name="email" class="big-formm__input big-formm__input_email" id="input__one" type="email">
+								<div class="big__formm__text">You can create an account after checkout.</div>
+
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="input__two">First Name<span>*</span></label>
+								<input tabindex="25" required name="First Name" class="big-formm__input" id="input__two" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="input__three">Last Name<span>*</span></label>
+								<input tabindex="26" required name="Last Name" class="big-formm__input" id="input__three" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__four">Company<span>*</span></label>
+								<input tabindex="27" required name="Last Name" class="big-formm__input" id="item__four" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__five">Street Address<span>*</span></label>
+								<input tabindex="28" required name="Street Address" class="big-formm__input big-formm__input_margin" id="item__five" type="text">
+								<input tabindex="29" required name="Street Address" class="big-formm__input" id="item__five" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__six">City<span>*</span></label>
+								<input tabindex="30" required name="Last Name" class="big-formm__input" id="item__six" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__seven">State/Province<span>*</span></label>
+								<select tabindex="31" required name="Province" class="big-formm__select" id="item__seven">
+									<option value="item_1">Please, select a region, state or province</option>
+									<option value="item_2">District 11</option>
+									<option value="item_3">District 12</option>
+									<option value="item_4">District 13</option>
+								</select>
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__eight">Zip/Postal Code<span>*</span></label>
+								<input tabindex="32" required name="Postal code" class="big-formm__input" id="item__eight" type="text">
+							</div>
+							<div class="big-formm__item">
+								<label class="big-formm__label" for="item__nine">Country<span>*</span></label>
+								<select tabindex="33" required name="Province" class="big-formm__select" id="item__nine">
+									<option value="item_1">United States</option>
+									<option value="item_2">Canada</option>
+									<option value="item_3">Ukraine</option>
+									<option value="item_4">Sweden</option>
+								</select>
+							</div>
+							<div class="big-formm__item big-formm__item_border">
+								<label class="big-formm__label" for="item__ten">Phone Number<span>*</span></label>
+								<input tabindex="34" required name="Phone Number" class="big-formm__input" id="item__ten" type="tel">
+							</div>
+							<div class="big-formm__item big-formm__item_radio">
+								<label class="big-formm__label" for="item__eleven">Standard Rate</label>
+								<input tabindex="35" name="radio" required class="big-formm__input big-formm__input_radio" id="item__eleven" type="radio">
+								<label class="big-formm__label_radio" for="item__eleven">Price may vary depending on the item/destination. Shop Staff will contact you. 21.00$</label>
+							</div>
+							<div class="big-formm__item big-formm__item_radio">
+								<label class="big-formm__label" for="item__twelve">Pickup from store</label>
+								<input tabindex="36" name="radio" required class="big-formm__input big-formm__input_radio" id="item__twelve" type="radio">
+								<label class="big-formm__label_radio big-formm__label_radio_margin" for="item__twelve">1234 Street Adress City Address, 1234</label>
+								<button tabindex="37" type="submit" class="big-formm__button button">Next</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</main>
+			<footer class="footer"></footer>
+
+		</div>
+	</body>
+</html>
